@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo.png" style=width:200px;" />
+<img src="https://my-bucket-wyj.oss-cn-shanghai.aliyuncs.com/images/%E5%8B%8B%E7%AB%A0.jpg" style=width:200px;" />
 </p>
 
 <h1 align="center">Vue 3 + TypeScript 学习文档</h1>

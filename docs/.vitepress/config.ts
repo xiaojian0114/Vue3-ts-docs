@@ -18,7 +18,7 @@ export default defineConfig({
            
         ],
         socialLinks: [
-            { icon:"github" , link:"https://github.com/dashboard"},
+            { icon:"github" , link:"https://github.com/xiaojian0114/Vue3-ts-docs"},
         ],
 
         sidebar: {
