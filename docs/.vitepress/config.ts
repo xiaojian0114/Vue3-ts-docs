@@ -1,3 +1,4 @@
+import { tr } from 'element-plus/es/locales.mjs'
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
@@ -32,6 +33,32 @@ export default defineConfig({
                         { text: "基本概念" , link: "/guide/concepts"},
                     ],
                 },
+
+                {
+                    text: "小程序学习",
+                    collapsible: true,
+                    items: [
+                        { text: "介绍" ,link: "/guide/indexWx"},
+                        { text: "快速入门" ,link: "/guide/installationWx"},
+                        { text: "代码构成" ,link: "/guide/codeComposition"},
+                        
+                    ]
+                },
+
+                {
+                    text: "Vueuse学习",
+                    collapsible: true,
+                    items: [
+                        { text: "介绍" ,link: "/guide/indexVue"},
+                        { text: "快速入门" , link: "/guide/installationVue"},
+                        { text: "倒计时功能" , link: "/guide/CountDown"},
+                        { text: "发送信息功能" , link: "/guide/SmsSender"},
+                        { text: "表单验证功能" , link: "/guide/MyForm"},
+                        { text: "白天黑夜切换" , link: "/guide/DarkModeToggle"}
+
+
+                    ]
+                }
             ],
 
             "/components/": [
@@ -51,8 +78,8 @@ export default defineConfig({
         },
 
         footer: {
-            message: "123",
-            copyright: "123"
+            message: "学 习 文 档",
+            copyright: "超级睡觉王学习中心 © 未备案"
         }
 
     }
