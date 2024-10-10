@@ -1,8 +1,10 @@
-## 发送信息功能
+# 发送信息功能
+
+## 组件结构
 
 该组件用于发送短信，包含输入收件人号码和消息内容的表单，具有发送按钮和状态提示
 
-### 模板部分
+## 模板部分
 
 ```Vue
 <template>
@@ -17,7 +19,7 @@
 
 ```
 
-### 脚本部分
+## 脚本部分
 
 ```TypeScript
 <script lang="ts">
@@ -52,7 +54,7 @@ export default defineComponent({
 
 ```
 
-#### 关键点
+### 关键点
 
 1.  useSmsSender: 自定义组合式 API，用于处理短信发送逻辑。
     返回值：
@@ -64,10 +66,10 @@ export default defineComponent({
 
         isButtonDisabled: 控制按钮禁用状态。
 
-### 使用说明
+## 使用说明
 
 用户输入收件人和信息内容，点击“发送信息”按钮后，系统会发送短信，并显示相应的发送状态
 
-### 效果图
+## 效果图
 
 ![发送信息](https://my-bucket-wyj.oss-cn-shanghai.aliyuncs.com/images/%E5%8F%91%E9%80%81%E4%BF%A1%E6%81%AF.png "发送信息")

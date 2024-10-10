@@ -29,21 +29,12 @@ export default defineConfig({
                     collapsible: true,
                     items: [
                         { text: "介绍" , link: "/guide/" },
-                        { text: "安装" , link: "/guide/installation" },
-                        { text: "基本概念" , link: "/guide/concepts"},
+                        { text: "更新记录" , link:"/guide/Records"},
+                        
                     ],
                 },
 
-                {
-                    text: "小程序学习",
-                    collapsible: true,
-                    items: [
-                        { text: "介绍" ,link: "/guide/indexWx"},
-                        { text: "快速入门" ,link: "/guide/installationWx"},
-                        { text: "代码构成" ,link: "/guide/codeComposition"},
-                        
-                    ]
-                },
+            
 
                 {
                     text: "Vueuse学习",
@@ -54,7 +45,8 @@ export default defineConfig({
                         { text: "倒计时功能" , link: "/guide/CountDown"},
                         { text: "发送信息功能" , link: "/guide/SmsSender"},
                         { text: "表单验证功能" , link: "/guide/MyForm"},
-                        { text: "白天黑夜切换" , link: "/guide/DarkModeToggle"}
+                        { text: "白天黑夜切换" , link: "/guide/DarkModeToggle"},
+                        { text: "拓展组合函数" , link: "/guide/ExpansionComponents" }
 
 
                     ]

@@ -1,12 +1,12 @@
-## 倒计时功能
+# 倒计时功能
 
-### 组件结构
+## 组件结构
 
 该组件展示了一个倒计时器，用户可以开始或重置倒计时
 
 使用了 Vue 3 的 Composition API 和 TypeScript
 
-### 模板部分
+## 模板部分
 
 ```Vue
 <template>
@@ -21,7 +21,7 @@
 
 标签：显示格式化后的剩余时间
 
-### 脚本部分
+## 脚本部分
 
 ```TypeScript
 <script lang="ts">
@@ -51,7 +51,7 @@ export default defineComponent({
 
 ```
 
-#### 关键点
+## 关键点
 
 computed: 创建一个计算属性，用于格式化剩余时间。
 
@@ -59,10 +59,10 @@ computed: 创建一个计算属性，用于格式化剩余时间。
 
 使用 padStart(2, '0') 确保分钟和秒数都是两位数
 
-### 使用
+## 使用
 
 按钮触发的事件将控制倒计时的开始和重置，剩余时间将实时更新并显示
 
-### 效果图
+## 效果图
 
 ![倒计时](https://my-bucket-wyj.oss-cn-shanghai.aliyuncs.com/images/%E5%80%92%E8%AE%A1%E6%97%B6.png "倒计时效果")
