@@ -50,6 +50,14 @@ export default defineConfig({
 
 
                     ]
+                },
+
+                {
+                    text: "Vueuse课外学习",
+                    collapsible: true,
+                    items: [
+                        { text: "createGlobalState" , link:"/guide/indexOut"}
+                    ]
                 }
             ],
 
